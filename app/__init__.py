@@ -23,7 +23,7 @@ migrate = Migrate()
 def create_app(config_name='development'):
     app = Flask(__name__)
 
-    # Load configuration according to environment
+    # Load configuration according to environmentt
     config_manager = ConfigManager(app)
     config_manager.load_config(config_name=config_name)
 
